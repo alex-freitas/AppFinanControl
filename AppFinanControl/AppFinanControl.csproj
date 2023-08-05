@@ -12,7 +12,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 
 		<!-- Display name -->
-		<ApplicationTitle>AppFinanControl</ApplicationTitle>
+		<ApplicationTitle>Finance Control</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.appfinancontrol</ApplicationId>
@@ -55,4 +55,10 @@
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Remove="Resources\AppIcon\appiconfg_android.svg" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\AppIcon\appiconfg_android.svg" />
+	</ItemGroup>
 </Project>
